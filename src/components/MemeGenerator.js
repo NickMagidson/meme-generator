@@ -3,6 +3,7 @@ import React from 'react';
 class MemeGenerator extends React.Component {
     constructor(props) {
         super(props)
+        this.state = {}
     }
     
     componentWillMount() {
@@ -11,7 +12,9 @@ class MemeGenerator extends React.Component {
     
     render() {
         return(
-            <div></div>
+            <div>
+                <h1>MEME GENERATOR SECTION</h1>
+            </div>
         )
     }
     
